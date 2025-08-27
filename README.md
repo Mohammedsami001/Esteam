@@ -1,7 +1,7 @@
 # 🚀 Esteam – Service Provider App (Frontend)
 
-**Esteam** is a modern **service provider platform** designed to connect customers with local workers and helpers.
-This repository contains the **frontend application**, built using **React, TailwindCSS, HTML, CSS, and JavaScript**.
+Esteam is a modern service provider platform UI designed to connect customers with local workers and helpers.
+This repository contains the frontend application, built using HTML, CSS, TailwindCSS, JavaScript, and PostCSS.
 
 ## 💡 About the Project
 
@@ -17,18 +17,15 @@ This frontend MVP showcases the **user interface and basic workflows** for:
 ## ✨ Features (Frontend Only)
 
 * 🎨 Responsive UI built with TailwindCSS
-* ⚡ Fast and interactive pages powered by React
 * 🧑‍💼 Separate views for customers and workers
-* 📱 Mobile-first design
-* 🧭 Navigation with React Router
 * 📂 Clean, component-based code structure
 
 ## 🛠️ Tech Stack
 
-* **React.js** – Component-based frontend library
 * **TailwindCSS** – Utility-first CSS framework
 * **JavaScript (ES6+)** – Core logic
 * **HTML5 & CSS3** – Semantic markup & styling
+* **PostCSS** – CSS processing and optimization
 
 ## 📥 Installation
 
@@ -44,31 +41,23 @@ Install dependencies:
 ```bash
 npm install
 ```
-
-Run the app in development mode:
-
-```bash
-npm run dev
+Build Tailwind CSS:
 ```
-
-Build for production:
-
-```bash
-npm run build
+npx tailwindcss -i ./css/tailwind.css -o ./css/styles.css --watch
 ```
-
----
 
 ## ▶️ Usage
 
-1. Start the development server with `npm run dev`.
-2. Open your browser at `http://localhost:5173/`.
-3. Explore the app UI as a **customer** or **service provider**.
-
----
+1. Open index.html in your browser.
+2. Navigate through the pages to explore the UI.
+3. Use live server (VS Code extension) for a better development experience.
+4. Explore the app UI as a **customer** or **service provider**.
 
 ## 📸 Screenshots
 <img width="1716" height="992" alt="image" src="https://github.com/user-attachments/assets/d8d3799b-4b43-4cc9-a6c1-f40e34bff2cb" />
+
+
+
 
 Service Provider's Dashboard
 <img width="1731" height="985" alt="image" src="https://github.com/user-attachments/assets/846393d6-5955-4989-bf4c-4b9d0ebe3d4f" />
@@ -76,6 +65,8 @@ Service Provider's Dashboard
 <img width="1723" height="972" alt="image" src="https://github.com/user-attachments/assets/c1c81579-d187-43fa-8814-3e8bcdb64dad" />
 <img width="1732" height="983" alt="image" src="https://github.com/user-attachments/assets/1b661265-d7f3-463b-ba1b-ec605c0896d1" />
 <img width="1734" height="987" alt="image" src="https://github.com/user-attachments/assets/fa021094-df9c-4447-b2b6-6ffe9d855e4f" />
+
+
 
 Customer/Employer's Dashboard
 <img width="1739" height="998" alt="image" src="https://github.com/user-attachments/assets/351bef3c-afe2-428b-abf4-5c4de6155493" />
